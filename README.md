@@ -7,4 +7,6 @@
 ###### 10-bit resolution: 2.31 MSPS
 ###### 8-bit resolution: 2.73 MSPS
 ###### 6-bit resolution: 3.33 MSPS
-###### I found this information in Section 21: Analog to Digital Converters (ADC) of the datasheet, (21.2, 21.4.22)
+###### I found this information in Section 21: Analog to Digital Converters (ADC) of the datasheet, (21.2, 21.4.22.)
+
+###### A voltage divider circuit is needed to limit the amount of voltage passing through the circuit. If the photodiode is directly connected to the board, it will be damaged.  
